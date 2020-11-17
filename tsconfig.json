@@ -1,0 +1,12 @@
+{
+  "include": ["index.d.ts", "src/**.ts"],
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "dist/",
+    "declarationMap": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "pretty": true,
+  }
+}
